@@ -1,0 +1,18 @@
+.quiz-suggestions {
+  background-color: #c97e52;
+  margin-top: 20px;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.themes-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.error {
+  color: red;
+}

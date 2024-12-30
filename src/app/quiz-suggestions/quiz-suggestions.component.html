@@ -1,0 +1,19 @@
+<div class="quiz-suggestions">
+  <h2>Suggestions de thèmes de sondages</h2>
+
+  <div *ngIf="error" class="error">
+    {{ error }}
+  </div>
+
+  <div *ngIf="!error && themes.length > 0" class="themes-list">
+    <ul>
+      <li *ngFor="let theme of themes">
+        {{ theme.name }}
+      </li>
+    </ul>
+  </div>
+
+  <div *ngIf="!error && themes.length === 0" class="no-themes">
+    <p>Aucun thème trouvé.</p>
+  </div>
+</div>
