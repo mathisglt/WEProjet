@@ -1,27 +1,51 @@
-# Tlcfront
+# Projet de fin Web Engineering Master IL 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+## Description du Projet
 
-## Development server
+Ce projet consiste à améliorer une application Web existante, Doodle Student, en ajoutant une nouvelle fonctionnalité. L'application original a pour but de créer des sondages (polls).
 
-Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Fonctionnalité Ajoutée
 
-## Code scaffolding
+Dans ce projet, j'ai choisi d'ajouter une fonctionnalité de suggestions de thèmes de sondages. Cette fonctionnalité permet aux utilisateurs de recevoir des suggestions de thèmes pour leurs sondages en utilisant une API externe. Cela enrichit l'expérience utilisateur en offrant des options variées et pertinentes. Etant donné que nous ne devions travailler que sur le front et non le back, j'ai choisi une API très simple de opentdb.com
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies Utilisées
 
-## Build
+- **Frontend**: Angular, PrimeNG
+- **API Externe**: Open Trivia Database pour les suggestions de thèmes
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Installation
 
-## Running unit tests
+Pour exécuter le projet localement, suivez ces étapes :
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/mathisglt/WEProjet.git
+   ```
 
-## Running end-to-end tests
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+3. Lancez l'application :
+   ```bash
+   ng serve
+   ```
 
-## Further help
+4. Ouvrez votre navigateur et accédez à `http://localhost:4200`.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Fonctionnalités
+
+- Suggestions de thèmes de sondages basées sur des catégories de opentdb.
+- Interface utilisateur intuitive avec des composants PrimeNG.
+
+## Liens Utiles
+
+- [Doodle Student - Dépôt GitHub](https://github.com/barais/doodlestudent)
+- [Open Trivia Database](https://opentdb.com/)
+
+
+
+## Auteurs
+
+- Gaultier Mathis, @mathisglt
